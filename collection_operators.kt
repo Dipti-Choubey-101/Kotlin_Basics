@@ -17,7 +17,6 @@
 
 
 
-
 //<------------------------------------------------------------------------->
 //Instead of checking every element, it divides the list in half each time
 //This is called Binary Search.
