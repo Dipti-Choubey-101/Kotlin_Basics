@@ -253,3 +253,45 @@ import kotlin.reflect.KProperty
 //}
 
 
+
+
+
+//prevents multiple instance from being created and allowing access to only one object of database class
+//fun main(){
+//        val instance = Database.getInstance()//database is the instance
+//        val instance2 = Database.getInstance()
+//        println(instance)//output same of both bcoz both variables poiny to same object
+//        println(instance2)
+//    }
+//
+//
+//class Database private constructor(){
+//    companion object{
+//        private var instance:Database?=null
+//
+//        fun getInstance():Database?{
+//            if(instance==null){
+//                instance=Database()
+//            }
+//            return instance
+//        }
+//    }
+//}
+
+
+
+
+//<----------------------------------------------------------------------->
+//creating object
+//fun main(){
+//    println(Database)
+//}
+//object Database{
+//    init{
+//        println("Database is created")
+//    }
+//}
+
+
+
+
