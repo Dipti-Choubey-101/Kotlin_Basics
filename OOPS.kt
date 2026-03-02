@@ -255,7 +255,7 @@ import kotlin.reflect.KProperty
 
 
 
-
+<------------------------------------------------------------------------------------------>
 //prevents multiple instance from being created and allowing access to only one object of database class
 //fun main(){
 //        val instance = Database.getInstance()//database is the instance
@@ -294,4 +294,105 @@ import kotlin.reflect.KProperty
 
 
 
+//<----------------------------------------------------------------------->
+//enum  classes
+//fun main(){
+//println(Direction.NORTH)
+//}
+//enum class Direction{
+//    NORTH,
+//    SOUTH,
+//    EAST,
+//    WEST
+//}
 
+
+
+//<-------------------------------------------------------------------------->
+// MANY DIRECTIONS PRINT
+//fun main(){
+//     println(Direction.NORTH)
+//    println(Direction.WEST)
+//    println(Direction.SOUTH)
+//    println(Direction.EAST)
+//}
+//enum class Direction{
+//    NORTH,
+//    SOUTH,
+//    WEST,
+//    EAST
+//}
+
+
+
+
+//<------------------------------------------------------------------>
+//CONSTRUCTOR AND PARAMETERS
+//fun main() {
+//    for (direction in Direction.values()) {
+//        println(direction)
+//    }
+//
+//    println(Direction.NORTH.direction)
+//    println(Direction.NORTH.distance)
+//    println(Direction.SOUTH.direction)
+//    println(Direction.SOUTH.distance)
+//    println(Direction.EAST.direction)
+//    println(Direction.EAST.distance)
+//    println(Direction.WEST.direction)
+//    println(Direction.WEST.distance)
+//}
+//
+//enum class Direction(var direction: String, var distance: Int) {
+//    NORTH("north", 20),
+//    SOUTH("south", 20),
+//    WEST("west", 12),
+//    EAST("east", 54)
+//}
+
+
+
+//<------------------------------------------------------------------------->
+//enum class Direction(var direction:String,var distance:Int){
+//    NORTH("north",20),
+//    SOUTH("south",20),
+//    WEST("west",12),
+//    EAST("east",54);
+//
+//    fun printData(){
+//        println("Direction:$direction and Distance:$distance")
+//   }
+//}
+//fun main(){
+//   val direction=Direction.WEST
+//
+//    when(direction){
+//        Direction.EAST->println("THE DIRECTION IS EAST")
+//        Direction.WEST->println("THE DIRECTION IS WEST")
+//        Direction.NORTH->println("THE DIRECTION IS NORTH")
+//        Direction.SOUTH->println("THE DIRECTION IS SOUTH")
+//    }
+//    direction.printData()
+//}
+
+
+
+
+
+
+//<--------------------------------------------------------------------->
+//enum class Direction(var direction: String, var distance: Int) {
+//    NORTH("north", 20),
+//    SOUTH("south", 20),
+//    WEST("west", 12),
+//    EAST("east", 54);
+//
+//    fun printData() {
+//        println("Direction: $direction and Distance: $distance")
+//    }
+//}
+//
+//fun main() {
+//    val dir = Direction.NORTH
+//    dir.printData()
+//}
