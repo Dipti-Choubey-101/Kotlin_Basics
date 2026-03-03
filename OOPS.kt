@@ -402,3 +402,108 @@ import kotlin.reflect.KProperty
 
 
   //<---------------------------------------------------------------------->
+//INNER CLASSES
+//fun main(){
+//val listView=ListView(arrayOf("Name 1","Name 2","Name 3"))
+//    listView.ListViewItems().displayItem(2)
+//}
+//
+//class ListView(var items:Array<String>) {
+//    inner class ListViewItems() {
+//        fun displayItem(position: Int) {
+//            println(items[position])
+//        }
+//    }
+//}
+
+
+
+//<--------------------------------------------------------------------->
+//fun main(){
+//    val alexAccount = Account("Alex")
+//    alexAccount.deposit(1000)
+//    alexAccount.withdraw(500)
+//    alexAccount.deposit(-20)
+//    alexAccount.withdraw(-100)
+//    val balance =alexAccount.calculateBalance()
+//    println("Balance is $balance")
+//
+//}
+//class Account(val AccountName:String){
+//        var balance=0
+//        var transactions=mutableListOf<Int>()
+//        fun deposit(amount:Int){
+//            if(amount>0) {
+//                transactions.add(amount)
+//                balance += amount
+//                println("$amount deposited.Balance is now ${this.balance}")
+//            }
+//            else{
+//                println("Cannot deposit negative sums")
+//            }
+//        }
+//    fun withdraw(withdrawal: Int){
+//        if(-withdrawal<0) {
+//            transactions.add(-withdrawal)
+//            this.balance += -withdrawal
+//            println("$withdrawal taken.Balance is now ${this.balance}")
+//        }else{
+//            println("cannot withdraw negative sums")
+//        }
+//    }
+//    fun calculateBalance():Int{
+//        this.balance=0
+//        for(transaction in transactions){
+//                   this.balance+=transaction
+//        }
+//        return this.balance
+//    }
+//}
+
+
+
+
+//<----------------------------------------------------------------------------->
+//using access modifiers on same code
+//fun main(){
+//    val alexAccount = Account("Alex")
+//    alexAccount.deposit(1000)
+//    alexAccount.withdraw(500)
+//    alexAccount.deposit(-20)
+//    alexAccount.withdraw(-100)
+//    val balance =alexAccount.calculateBalance()
+//    println("Balance is $balance")
+////    alexAccount.balance=1000
+//
+//}
+//class Account(val AccountName:String){
+//    private var balance=0//making account accessable only within this class not outsuide it if we try to acees it outside the class it willl show cannt accessable as it a private class
+//    private var transactions=mutableListOf<Int>()
+//    fun deposit(amount:Int){
+//        if(amount>0) {
+//            transactions.add(amount)
+//            balance += amount
+//            println("$amount deposited.Balance is now ${this.balance}")
+//        }
+//        else{
+//            println("Cannot deposit negative sums")
+//        }
+//    }
+//    fun withdraw(withdrawal: Int){
+//        if(-withdrawal<0) {
+//            transactions.add(-withdrawal)
+//            this.balance += -withdrawal
+//            println("$withdrawal taken.Balance is now ${this.balance}")
+//        }else{
+//            println("cannot withdraw negative sums")
+//        }
+//    }
+//    fun calculateBalance():Int{
+//        this.balance=0
+//        for(transaction in transactions){
+//            this.balance+=transaction
+//        }
+//        return this.balance
+//    }
+//}
+
