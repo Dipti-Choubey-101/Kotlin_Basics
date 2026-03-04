@@ -512,3 +512,72 @@ import kotlin.reflect.KProperty
 //    }
 //}
 
+
+
+
+
+
+  //INHERITANCE(A CLASS WITH PROPERTIES SAME AS ITS PARENT CLASS)
+//fun main(){
+//    val car=Car("BMW","Red",1,4)
+//    val plane=Plane("Boeing","White",2,6)
+//    car.move()
+//    car.stop()
+//    plane.move()
+//    plane.stop()
+//}
+//    open class Vehicle(val name: String, val color: String) {
+//        fun move() {
+//            println("$name is moving")
+//        }
+//
+//        fun stop() {
+//            println("$name is stopped")
+//        }
+//    }
+//
+//
+//class Car(name:String,color:String,val engines: Int, val doors: Int) : Vehicle(name,color){
+//}
+//
+//class Plane(name:String,color:String,val engines: Int, val doors: Int) :Vehicle(name ,color){
+//
+//}
+
+
+
+
+//<--------------------------------------------------------------------->
+//overriding
+//fun main(){
+//    val car=Car("BMW","Red",1,4)
+//    val plane=Plane("Boeing","White",2,6)
+//    car.move()
+//    car.stop()
+//    plane.move()
+//    plane.stop()
+//}
+//open class Vehicle(val name: String, val color: String) {
+//    open fun move() {
+//        println("$name is moving")
+//    }
+//
+//    open fun stop() {
+//        println("$name is stopped")
+//    }
+//}
+//
+//
+//class Car(name:String,color:String,val engines: Int, val doors: Int) : Vehicle(name,color){
+//}
+//
+//class Plane(name:String,color:String,val engines: Int, val doors: Int) :Vehicle(name ,color){
+//    override fun move() {
+//        flying()
+//        super.move()
+//    }
+//    fun flying(){
+//        println("the plane is flying")
+//    }
+//}
+
