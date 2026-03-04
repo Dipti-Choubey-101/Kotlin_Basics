@@ -516,7 +516,7 @@ import kotlin.reflect.KProperty
 
 
 
-
+//<-------------------------------------------------------------------------------------->
   //INHERITANCE(A CLASS WITH PROPERTIES SAME AS ITS PARENT CLASS)
 //fun main(){
 //    val car=Car("BMW","Red",1,4)
