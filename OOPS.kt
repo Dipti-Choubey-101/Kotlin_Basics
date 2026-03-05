@@ -593,7 +593,7 @@ import kotlin.reflect.KProperty
 
 
 
-
+//<---------------------------------------------------------------------->
  //Interfaces(putting buttons,ui)setOnClickListener,ViewOnClickListener,toast
 
 
