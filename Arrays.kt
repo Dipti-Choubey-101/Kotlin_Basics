@@ -6,7 +6,6 @@
 
 
 
-
 //<------------------------------------------------------>
 //fun main(args:Array<String>) {
 //    val names=arrayOf("Dipti","Neel")
