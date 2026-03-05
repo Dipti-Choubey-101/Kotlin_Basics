@@ -590,3 +590,68 @@ import kotlin.reflect.KProperty
 //    }
 //}
 
+
+
+
+
+ //Interfaces(putting buttons,ui)setOnClickListener,ViewOnClickListener,toast
+
+
+//sealed classes(A sealed class in Kotlin is like an advanced enum with data and inheritance.)
+//Here:
+//Result is the sealed class (the parent).
+//Success and Error are the only possible subclasses.
+//No other class outside this file can inherit from Result.
+
+//fun main(){
+//   val success=Result.Success("SUCCESS!")
+//    val error=Result.Error("FAILED!")
+//    val progress=Result.Progress("Progress!")
+//    getData(progress)
+//}
+//fun getData(result: Result){
+//    when(result) {
+//        is Result.Error -> result.showMessage()
+//        is Result.Success -> result.showMessage()
+//        is Result.Progress-> result.showMessage()
+//    }
+//}
+//sealed class Result(val message:String){
+//    fun showMessage(){
+//        println("Result:$message")
+//    }
+//    class Success(message: String):Result(message)
+//    class Error(message:String):Result(message)
+//    class Progress(message: String):Result(message)
+//}
+
+
+
+
+//<------------------------------------------------------------>
+//more sealed classes within previous ones
+//fun main(){
+//    val success=Result.Success("SUCCESS!")
+//    val progress=Result.Progress("Progress!")
+//    val error=Result.Error.RecoverableError(Exception("Recoverable"),"Recoverable error!")
+//    getData(error)
+//}
+//fun getData(result: Result){
+//    when(result) {
+//        is Result.Success -> result.showMessage()
+//        is Result.Progress-> result.showMessage()
+//        is Result.Error.NonRecoverableError -> result.showMessage()
+//        is Result.Error.RecoverableError -> result.showMessage()
+//    }
+//}
+//sealed class Result(val message:String){
+//    fun showMessage(){
+//        println("Result:$message")
+//    }
+//    class Success(message: String):Result(message)
+//    sealed class Error(message:String):Result(message){
+//        class RecoverableError(exception: Exception,message:String):Error(message)
+//        class NonRecoverableError(exception: Exception,message:String):Error(message)
+//    }
+//    class Progress(message: String):Result(message)
+//}
