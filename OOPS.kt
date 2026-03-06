@@ -655,3 +655,38 @@ import kotlin.reflect.KProperty
 //    }
 //    class Progress(message: String):Result(message)
 //}
+
+
+
+
+
+ //abstract classes(You cannot create an object directly from an abstract class. It exists solely to be inherited by other classes.)
+//
+//}
+//abstract class Vehicle(val name: String, val color: String) {
+//    abstract fun move()
+//
+//    abstract fun stop()
+//}
+//
+//
+//class Car(var name:String,var color:String,val engines: Int, val doors: Int) : Vehicle(name,color){
+//    override fun move() {
+//
+//    }
+//
+//    override fun stop() {
+//
+//    }
+//}
+//
+//class Plane(var name:String,var color:String,val engines: Int, val doors: Int) :Vehicle(name,color){
+//    override fun move() {
+//
+//    }
+//
+//    override fun stop() {
+//
+//    }
+//
+//}
