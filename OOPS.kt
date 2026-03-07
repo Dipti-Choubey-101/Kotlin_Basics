@@ -690,3 +690,70 @@ import kotlin.reflect.KProperty
 //    }
 //
 //}
+
+
+
+
+ //<------------------------------------------------------------------------------------->
+ //Data classes
+//structural equality
+
+//fun main() {
+//    val name1 = "Neel"
+//    val name2 = "Neel"
+//
+//    println(name1 == name2)
+//}
+
+
+
+
+//<----------------------------------------------------------------------->
+//referenrtial equality
+//fun main(){
+//    val name1 = "Neel"
+//    val name2 = "Neel"
+//
+//    println(name1 === name2)
+//}
+//<------------------------------------------------------------------------->
+
+//fun main(){
+//    val user1=User("Neel","Roy",20)
+//    val user2=User("Neel","Roy",20)
+//    println(user1==user2)
+//}
+//data class User(var firstName: String, var lastName: String, var age: Int)
+//<-------------------------------------------------------------------------->
+
+
+//fun main(){
+//    val user1=User("Neel","Roy",20)
+//    val user2=User("Neel","Roy",20)
+//    println(user1==user2)
+//}
+//class User(var firstName: String, var lastName: String, var age: Int){
+//    override fun equals(other: Any?): Boolean {
+//        if(this=== other){
+//            return true
+//        }
+//        if(other is User){
+//            return this.firstName== other.firstName
+//                    && this.lastName==other.lastName
+//                    && this.age==other.age
+//        }
+//        return false
+//    }
+//    }
+
+//<-------------------------------------------------------------------------->
+
+
+//fun main(){
+//    val user1=User("Neel","Roy",20)
+//    val user2=User("Neel","Roy",20)
+//    println(user1==user2)
+//    println(user1)
+//    println(user2)
+//}
+//data class User(var firstName: String, var lastName: String, var age: Int)
