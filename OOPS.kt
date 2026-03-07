@@ -716,6 +716,8 @@ import kotlin.reflect.KProperty
 //
 //    println(name1 === name2)
 //}
+
+ 
 //<------------------------------------------------------------------------->
 
 //fun main(){
@@ -724,6 +726,8 @@ import kotlin.reflect.KProperty
 //    println(user1==user2)
 //}
 //data class User(var firstName: String, var lastName: String, var age: Int)
+
+ 
 //<-------------------------------------------------------------------------->
 
 
