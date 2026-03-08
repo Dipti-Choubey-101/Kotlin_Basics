@@ -31,7 +31,6 @@ import kotlin.reflect.KProperty
 
 
 
-
 //<----------------------------------------------------------------->
 //its concise and easier to read with same output
 //fun main(){
