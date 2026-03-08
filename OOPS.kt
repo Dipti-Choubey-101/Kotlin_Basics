@@ -761,3 +761,40 @@ import kotlin.reflect.KProperty
 //    println(user2)
 //}
 //data class User(var firstName: String, var lastName: String, var age: Int)
+
+
+
+
+
+
+ //interfaces
+//fun main() {
+//    val car = Car("BMW", "Black")
+//    val truck = Truck("Tata", "Blue")
+//    val plane = Plane("Boeing", "White")
+//
+//    car.startEngine()
+//    truck.startEngine()
+//    plane.startEngine()
+//}
+//interface Engine{
+//    fun startEngine()
+//
+//}
+//class Car(val name:String,val color: String):Engine{
+//    override fun startEngine() {
+//        println("the car is starting the engine")
+//    }
+//
+//}
+//class Truck(val name:String,val color:String):Engine{
+//    override fun startEngine() {
+//        println("the truck is starting the engine")
+//    }
+//
+//}
+//class Plane(val name:String,val color:String):Engine{
+//    override fun startEngine() {
+//        println("the plane is starting the engine")
+//    }
+//}
