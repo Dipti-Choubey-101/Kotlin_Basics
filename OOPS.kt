@@ -766,7 +766,7 @@ import kotlin.reflect.KProperty
 
 
 
-
+//<---------------------------------------------------------------------------->
  //interfaces
 //fun main() {
 //    val car = Car("BMW", "Black")
