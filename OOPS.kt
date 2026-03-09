@@ -798,3 +798,41 @@ import kotlin.reflect.KProperty
 //        println("the plane is starting the engine")
 //    }
 //}
+
+
+
+ //<----------------------------------------------------------------------->
+ ////object expression(create an anonymous object (a class without a name))
+//fun main() {
+//    val loginButton = Button("Login", 67, object : OnClickListener {
+//        override fun onClick() {
+//            println("Logging in the user...")
+//        }
+//    })
+//    val signUpButton = Button("Signup", 1233, object : OnClickListener {
+//        override fun onClick() {
+//            println("Signing up the user...")
+//        }
+//    })
+//    // Simulating button clicks
+//    loginButton.click()
+//    signUpButton.click()
+//}
+//interface OnClickListener {
+//    fun onClick()
+//}
+//// Button class that takes text, id, and a listener
+//class Button(val text: String, val id: Int, val listener: OnClickListener) {
+//    fun click() {
+//        println("$text button clicked!")
+//        listener.onClick()
+//    }
+//}
+
+
+
+//<----------------------------------------------------------------->
+//// Interface that defines what happens when button is clicked
+//interface onClickListener {
+//    fun onClick()
+//}
