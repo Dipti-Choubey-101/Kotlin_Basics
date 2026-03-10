@@ -836,3 +836,63 @@ import kotlin.reflect.KProperty
 //interface onClickListener {
 //    fun onClick()
 //}
+
+
+
+
+ ////delegation:giving power of one instance of a clas to another class. in inheritance one class gives properties to next but in deligation one class an inherit from more than one class
+//fun main() {
+//    val app = App()
+//    app.print()
+//    app.print2()
+//}
+//class App : A by FirstDelegate(), B by SecondDelegate()
+//interface A {
+//    fun print()
+//}
+//interface B {
+//    fun print2()
+//}
+//open class FirstDelegate : A {
+//    override fun print() {
+//        println("Printing from FirstDelegate")
+//    }
+//}
+//open class SecondDelegate : B {
+//    override fun print2() {
+//        println("Printing from SecondDelegate")
+//    }
+//}
+
+
+
+
+//<------------------------------------------------------------------->
+
+
+//import kotlin.properties.ReadWriteProperty
+//import kotlin.reflect.KProperty
+//fun main() {
+//    val user = User()
+//    with(user) {   // scope function
+//        firstName = "Neel"
+//        lastName = "Sen"
+//    }
+//    with(user) {
+//        println(firstName)
+//        println(lastName)
+//    }
+//}
+//class User {
+//    var firstName by FormatDelegate()
+//    var lastName by FormatDelegate()
+//}
+//class FormatDelegate : ReadWriteProperty<Any?, String> {
+//    private var formattedString: String = ""
+//    override fun getValue(thisRef: Any?, property: KProperty<*>): String {
+//        return formattedString
+//    }
+//    override fun setValue(thisRef: Any?, property: KProperty<*>, value: String) {
+//        formattedString = value.lowercase()  // converts to lowercase
+//    }
+//}
