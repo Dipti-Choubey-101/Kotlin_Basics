@@ -839,7 +839,7 @@ import kotlin.reflect.KProperty
 
 
 
-
+//<--------------------------------------------------------------------->
  ////delegation:giving power of one instance of a clas to another class. in inheritance one class gives properties to next but in deligation one class an inherit from more than one class
 //fun main() {
 //    val app = App()
