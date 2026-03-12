@@ -63,4 +63,27 @@ import kotlinx.coroutines.Dispatchers.Main
 //    Thread.sleep(2000)//it stops program for 2000milliseconds
 //    println("Main program ends: ${Thread.currentThread().name}")
 //
+
 //}
+
+
+
+
+//<----------------------------------------------------------------->
+//suspend function
+
+//fun main(){
+//    println("Main program starts: ${Thread.currentThread().name}")
+//    val parentJob=CoroutineScope(Dispatchers.Default).launch {
+//        println("Fake work starts:${Thread.currentThread().name}")
+//        delay(2000)//just pause this specific coroutine
+//        println("Fake work finished:${Thread.currentThread().name}")
+//    }
+//    runBlocking {
+//        parentJob.join()
+//    }
+//    println("Main program ends: ${Thread.currentThread().name}")
+//
+//}//delay is a suspend function but it will not delayed in the same way so we are using her Run blocking Run blocking actually tells the function to wait for few seconds to complete the task and then finish the function here the main function will be start fake work will start and after few time of that 2000 seconds the fake function will end and main fuync willll end
+
+
