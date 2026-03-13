@@ -32,7 +32,7 @@ fun main(){//executed on main thread
 
 
 
-<-------------------------------------------------------------->
+//<-------------------------------------------------------------->
 using coroutine did this
 
 fun main(){
@@ -51,7 +51,7 @@ fun main(){
 
 
 
-<-------------------------------------------------------------------->
+//<-------------------------------------------------------------------->
 fun main(){
    println("Main program starts: ${Thread.currentThread().name}")
    CoroutineScope(Dispatchers.Default
@@ -68,7 +68,7 @@ fun main(){
 
 
 
-<----------------------------------------------------------------->
+//<----------------------------------------------------------------->
 suspend function
 
 fun main(){
@@ -88,7 +88,7 @@ fun main(){
 
 
 
-<----------------------------------------------------------------->
+//<----------------------------------------------------------------->
 coroutines builders
 
 fun main(){
@@ -122,3 +122,4 @@ private suspend fun getData2(threadName:String):String{
    println("Fake work2 finished:$threadName")
    return "Result 2"
 }
+
