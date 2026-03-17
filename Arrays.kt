@@ -26,7 +26,6 @@ fun main(args:Array<String>) {
 }
 
 
-
 //<-------------------------------------------------------->
 fun main(args:Array<String>) {
    val array = intArrayOf(2, 4, 5, 23, 78, 9)
