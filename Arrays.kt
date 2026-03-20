@@ -54,11 +54,6 @@ fun findmin(numbers:IntArray): Int{
 }
 
 
-
-
-
-
-
 //<------------------------------------------------------------>
 //findMax and findMin
 fun main(args:Array<String>){
