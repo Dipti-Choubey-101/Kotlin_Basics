@@ -62,7 +62,6 @@ fun main(args:Array<String>) {
 
 
 
-
 //<-------------------------------------------------------------->
 //loop through one dimensional array
 fun main(args:Array<String>) {
