@@ -30,7 +30,6 @@ class Car(){
 }
 
 
-
 //<----------------------------------------------------------------->
 //its concise and easier to read with same output
 fun main(){
