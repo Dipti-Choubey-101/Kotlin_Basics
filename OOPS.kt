@@ -124,7 +124,6 @@ class User(var name:String,var lastName:String,var age:Int){
 
 
 
-
 //<----------------------------------------------------------------------->
 //making code concise
 fun main(){
