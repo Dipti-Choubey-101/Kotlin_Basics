@@ -31,7 +31,6 @@ for(i in 1 until 10){
     i++}
 }
 
-
 //-------------------------------------------
     var i =10//here initialized no is greater than loop cintaining items so it wont give any output that's why we will use do..while loop for such cases where we want loop to run atleast one time
     while(i<10){
