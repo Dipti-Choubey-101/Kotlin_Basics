@@ -69,7 +69,7 @@ fun main(){
 
 
 //<----------------------------------------------------------------->
-suspend function
+//suspend function
 
 fun main(){
    println("Main program starts: ${Thread.currentThread().name}")
