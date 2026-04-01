@@ -9,9 +9,6 @@ class User(var firstName:String,var lastName:String,var age:Int) {
 }
 
 
-
-
-
 //<----------------------------------------------------------------->
 //calculator class code
 fun main(){
