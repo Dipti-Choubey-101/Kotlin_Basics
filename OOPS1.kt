@@ -38,9 +38,6 @@ class Calculator(){
 }
 
 
-
-
-
 //<------------------------------------------------------------------------->
 //most imp code covering companion object,function calling and built-in constants like Int.MAX_VALUE
 fun main(){
