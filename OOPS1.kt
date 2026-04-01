@@ -23,8 +23,6 @@ class Calculator() {
 }
 
 
-
-
 //<-------------------------------------------------------------------->
 //HOW TO USE COMPANION OBJECT IN KOTLIN TO CALL A FUNCTION WITHOUT CREATING OBJECT OF CLASS
 fun main(){
