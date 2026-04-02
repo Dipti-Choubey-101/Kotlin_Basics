@@ -73,7 +73,6 @@ fun main(){
        parentJob.join()
    }
    println("Main program ends: ${Thread.currentThread().name}")
-
 }//delay is a suspend function but it will not delayed in the same way so we are using her Run blocking Run blocking actually tells the function to wait for few seconds to complete the task and then finish the function here the main function will be start fake work will start and after few time of that 2000 seconds the fake function will end and main fuync will end
 
 
