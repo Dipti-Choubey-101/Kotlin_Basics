@@ -257,7 +257,6 @@ fun main(){
    println("Total time:${System.currentTimeMillis()-start}")
 
    println("Main program ends: ${Thread.currentThread().name}")
-
 }
 private suspend fun getData1(threadName:String):String{
    println("Fake work1 starts:$threadName")
