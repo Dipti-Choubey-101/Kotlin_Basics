@@ -26,7 +26,6 @@ fun main(){//executed on main thread
        println("Fake work finished:${Thread.currentThread().name}")
    }
    println("Main program ends: ${Thread.currentThread().name}")
-
 }
 
 
