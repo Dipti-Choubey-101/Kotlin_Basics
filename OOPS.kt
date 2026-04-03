@@ -820,8 +820,6 @@ class Button(val text: String, val id: Int, val listener: OnClickListener) {
    }
 }
 
-
-
  
 //<----------------------------------------------------------------->
 //// Interface that defines what happens when button is clicked
