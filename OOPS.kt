@@ -96,8 +96,6 @@ class Car(var name: String, var color: String, var model: String, var doors: Int
 }
 
 
-
-
 //<------------------------------------------------------------------------------->
 //code including primary and seconding constructors
 fun main(){
