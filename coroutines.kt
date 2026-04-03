@@ -270,6 +270,8 @@ private suspend fun getData2(threadName:String):String{
    println("Fake work2 finished:$threadName")
    return "Result 2"
 }
+
+
 //<------------------------------------------------------------------->
 //drawing exceptions inside my code
 
