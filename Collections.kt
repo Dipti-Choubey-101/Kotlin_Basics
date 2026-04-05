@@ -97,7 +97,6 @@ fun main(args:Array<String>) {
 
 
 
-
 //<---------------------------------------------------------->
 fun main(args:Array<String>) {
    val numbers=(1..100).toList()
