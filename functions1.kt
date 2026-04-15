@@ -30,7 +30,6 @@ fun sendMessage(name: String, message: String = "") {
     println("Name = $name and message = $message")
 }
 
-
 fun sum(a: Int, b: Int, c: Int, d: Int): Int {
     return a + b + c + d
 }
