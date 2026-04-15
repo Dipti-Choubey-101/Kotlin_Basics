@@ -3,6 +3,7 @@ fun main(args: Array<String>) {
     // getMax with Double
     val max = getMax(a = 6.7, b = 9.7)
     println(max)
+    
 
     // sendMessage
     sendMessage(name = "Dipti")
