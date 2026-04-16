@@ -1,7 +1,6 @@
 import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty
 
-
 fun main(args: Array<String>) {
 var car1=Car()
    car1.name="Tesla"
