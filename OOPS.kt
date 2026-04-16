@@ -15,6 +15,7 @@ var car1=Car()
    car1.move()
    car1.stop()
 }
+
 class Car(){
    var name=""
    var color=""
