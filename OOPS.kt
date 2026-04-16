@@ -52,6 +52,7 @@ var car1=Car("Tesla","RED","S Plaid",4)
    car2.move()
    car2.stop()
 }
+
 class Car(name:String,color:String,model:String,doors:Int){
    var name=name
    var color=color
