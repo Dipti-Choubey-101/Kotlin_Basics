@@ -91,7 +91,6 @@ fun main(){
        parentJob.join()
    }
    println("Main program ends: ${Thread.currentThread().name}")
-
 }
 private suspend fun getData1(threadName:String):String{
    println("Fake work1 starts:$threadName")
