@@ -109,6 +109,7 @@ private suspend fun getData2(threadName:String):String{
 }
 
 //<------------------------------------------------------------------>
+
 //async
 
 fun main(){
