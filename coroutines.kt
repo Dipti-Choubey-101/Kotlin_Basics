@@ -100,7 +100,6 @@ private suspend fun getData1(threadName:String):String{
    println("Fake work1 finished:$threadName")
    return "Result 1"
 }
-
 private suspend fun getData2(threadName:String):String{
    println("Fake work2 starts:$threadName")
    delay(2000)
