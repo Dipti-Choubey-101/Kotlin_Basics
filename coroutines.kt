@@ -84,7 +84,6 @@ fun main(){
            val result2=getData2(Thread.currentThread().name)
            println(result2)
        }
-       
    }
    runBlocking {
        parentJob.join()
