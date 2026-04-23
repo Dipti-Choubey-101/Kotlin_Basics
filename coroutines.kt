@@ -159,6 +159,7 @@ fun main(){
    runBlocking {
        parentJob.join()
    }
+   
    parentJob.invokeOnCompletion {
        it?.let{
            println("Parent job failed:${it.message}")
