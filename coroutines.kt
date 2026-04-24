@@ -25,6 +25,7 @@ fun main(){//executed on main thread
    }
    println("Main program ends: ${Thread.currentThread().name}")
 }
+
 //<------------------------------------------------------------->
 //using coroutine did this
 
