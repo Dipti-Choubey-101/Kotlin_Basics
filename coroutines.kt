@@ -102,6 +102,7 @@ private suspend fun getData2(threadName:String):String{
    return "Result 2"
 }
 
+
 //<------------------------------------------------------------------>
 
 //async
