@@ -19,6 +19,7 @@ private fun searchElements(searchedElement: Int,numbers: MutableList<Int>):Int {
 //Instead of checking every element, it divides the list in half each time
 //This is called Binary Search.
 
+
 fun main() {
    println(searchElement(22,mutableListOf(1,12,22,422,642,246,64,23)))
 }
