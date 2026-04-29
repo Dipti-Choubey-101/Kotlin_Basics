@@ -1,5 +1,4 @@
 //searching//linear search
-
 fun main() {
    println(searchElements(22,mutableListOf(1,12,22,422,642,246,64,23)))
 }
