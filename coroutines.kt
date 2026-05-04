@@ -400,6 +400,8 @@ private suspend fun getData3(threadName:String):String{
    println("Fake work3 finished:$threadName")
    return "Result 3"
 }
+
+
 //<--------------------------------------------------------------------->
 val handler=CoroutineExceptionHandler { _,exception ->
    println("Error in one of children:${exception.message}")
@@ -455,6 +457,8 @@ private suspend fun getData3(threadName:String):String{
    println("Fake work3 finished:$threadName")
    return "Result 3"
 }
+
+
 //<------------------------------------------------------>
 //coroutines: sequentiallly
 
