@@ -456,59 +456,59 @@ private suspend fun getData3(threadName:String):String{
    return "Result 3"
 }
 //<------------------------------------------------------>
-////coroutines: sequentiallly
+//coroutines: sequentiallly
 
-//val handler=CoroutineExceptionHandler { _,exception ->
-//    println("Error in one of children:${exception.message}")
-//}
-//fun main(){
-//    println("Main program starts: ${Thread.currentThread().name}")
-//    val start=System.currentTimeMillis()
-//    val parentJob=CoroutineScope(Dispatchers.Default).launch{
-//        val job1 = launch {
-//            println(getData1(Thread.currentThread().name))
-//        }
-//        job1.join()
-//        val job2 = launch {
-//            println(getData2(Thread.currentThread().name))
-//        }
-//        job2.join()
-//        val job3= launch {
-//            println(getData3(Thread.currentThread().name))
-//        }
-//        job3.join()
-//
-//    }
-//    runBlocking {
-//        parentJob.join()
-//    }
-//    parentJob.invokeOnCompletion {
-//        it?.let{
-//            println("Parent job failed:${it.message}")
-//        }?:println("Parent job success!")
-//    }
-//    println("Total time:${System.currentTimeMillis()-start}")
-//
-//    println("Main program ends: ${Thread.currentThread().name}")
-//
-//}
-//private suspend fun getData1(threadName:String):String{
-//    println("Fake work1 starts:$threadName")
-//    delay(2000)
-//    println("Fake work1 finished:$threadName")
-//    return "Result 1"
-//}
-//
-//private suspend fun getData2(threadName:String):String{
-//    println("Fake work2 starts:$threadName")
-//    delay(2000)
-//    println("Fake work2 finished:$threadName")
-//    return "Result 2"
-//}
-//
-//private suspend fun getData3(threadName:String):String{
-//    println("Fake work3 starts:$threadName")
-//    delay(2000)
-//    println("Fake work3 finished:$threadName")
-//    return "Result 3"
-//}
+val handler=CoroutineExceptionHandler { _,exception ->
+   println("Error in one of children:${exception.message}")
+}
+fun main(){
+   println("Main program starts: ${Thread.currentThread().name}")
+   val start=System.currentTimeMillis()
+   val parentJob=CoroutineScope(Dispatchers.Default).launch{
+       val job1 = launch {
+           println(getData1(Thread.currentThread().name))
+       }
+       job1.join()
+       val job2 = launch {
+           println(getData2(Thread.currentThread().name))
+       }
+       job2.join()
+       val job3= launch {
+           println(getData3(Thread.currentThread().name))
+       }
+       job3.join()
+
+   }
+   runBlocking {
+       parentJob.join()
+   }
+   parentJob.invokeOnCompletion {
+       it?.let{
+           println("Parent job failed:${it.message}")
+       }?:println("Parent job success!")
+   }
+   println("Total time:${System.currentTimeMillis()-start}")
+
+   println("Main program ends: ${Thread.currentThread().name}")
+
+}
+private suspend fun getData1(threadName:String):String{
+   println("Fake work1 starts:$threadName")
+   delay(2000)
+   println("Fake work1 finished:$threadName")
+   return "Result 1"
+}
+
+private suspend fun getData2(threadName:String):String{
+   println("Fake work2 starts:$threadName")
+   delay(2000)
+   println("Fake work2 finished:$threadName")
+   return "Result 2"
+}
+
+private suspend fun getData3(threadName:String):String{
+   println("Fake work3 starts:$threadName")
+   delay(2000)
+   println("Fake work3 finished:$threadName")
+   return "Result 3"
+}
