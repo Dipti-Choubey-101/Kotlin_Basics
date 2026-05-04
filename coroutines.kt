@@ -14,9 +14,8 @@ import kotlin.io.encoding.Base64
 import kotlin.random.Random
 import kotlinx.coroutines.*
 import kotlinx.coroutines.Dispatchers.Main
+
 //using thread did this
-
-
 fun main(){//executed on main thread
    println("Main program starts: ${Thread.currentThread().name}")
    thread{
