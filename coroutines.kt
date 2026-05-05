@@ -417,7 +417,6 @@ fun main(){
                println(getData3(Thread.currentThread().name))
            }
 
-
    }
    runBlocking {
        parentJob.join()
