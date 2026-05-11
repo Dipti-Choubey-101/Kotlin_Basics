@@ -129,9 +129,6 @@ fun main(args:Array<String>) {
    }
 }
 
-
-
-
 //<------------------------------------------------------------------->
     //partition filtering
 fun main(args:Array<String>) {
@@ -141,10 +138,6 @@ fun main(args:Array<String>) {
    println(rest)
 }
 
-
-
-
-
 //<----------------------------------------------------------------->
 //filtering on the basis of random criteria(predicates)
 fun main(args:Array<String>) {
@@ -153,10 +146,6 @@ fun main(args:Array<String>) {
    println(numbers.none{it.endsWith("w")})
    println(numbers.all{it.length>7})
 }
-
-
-
-
 
 //<------------------------------------------------------------------>
     //+ and - operators
@@ -168,10 +157,6 @@ fun main(args:Array<String>) {
    println(minusList)
 }
 
-
-
-
-
 //<------------------------------------------------------------>
     //grouping
 fun main(args:Array<String>) {
@@ -179,10 +164,6 @@ fun main(args:Array<String>) {
    println(numbers.groupBy { it.first().uppercase() })
    println(numbers.groupBy(keySelector = { it.first() }, { it.uppercase() }))
 }
-
-
-
-
 
 //<----------------------------------------------------------->
     //slice filtering
@@ -205,11 +186,6 @@ fun main(args:Array<String>) {
    println(numbers.dropLastWhile { it.contains("i") })
 }
 
-
-
-
-
-
 //<------------------------------------------------------------>
 //chunks
 fun main(args:Array<String>) {
@@ -218,20 +194,12 @@ fun main(args:Array<String>) {
    println(numbers.chunked(3){it.sum()})
 }
 
-
-
-
 //<-------------------------------------------------------------->
 fun main(args:Array<String>) {
    val numbers = listOf("one", "two", "three", "four", "five", "six")
    val windows = numbers.windowed(3)
    println(windows)
 }
-
-
-
-
-
 
 //<------------------------------------------------------------------->
 //with index
@@ -248,10 +216,6 @@ fun main(args:Array<String>) {
    println(numbers.isEmpty())
 }
 
-
-
-
-
 //<------------------------------------------------------->
 //aggregate functions
 fun main(args:Array<String>) {
@@ -263,10 +227,6 @@ fun main(args:Array<String>) {
    println("the min is: ${numbers.minOrNull()}")
    println("the sum is:${numbers.sumOf { it * 2 }}")
 }
-
-
-
-
 
 //<------------------------------------------------------>
 //sorting
@@ -310,10 +270,6 @@ class ComparatorRam: Comparator <Laptop>{
    }
 }
 
-
-
-
-
 //<-------------------------------------------------------->
 //precise way
 fun main(args:Array<String>) {
@@ -331,10 +287,6 @@ fun main(args:Array<String>) {
 
 data class Laptop(val brand:String,val year:Int,val ram:Int,val price:Int)
 
-
-
-
-
 //<---------------------------------------------------------->
 // more precise way
 fun main(args:Array<String>) {
@@ -351,10 +303,6 @@ fun main(args:Array<String>) {
 }
 
 data class Laptop(val brand:String,val year:Int,val ram:Int,val price:Int)
-
-
-
-
 
 //<----------------------------------------------------------->
 //most precise way
