@@ -71,7 +71,6 @@ fun main(args:Array<String>) {
    println(numberStrings.joinToString())
 }
 
-
 //<----------------------------------------------------------------->
 //joining string using prefix.postfix
 fun main(args:Array<String>) {
@@ -80,8 +79,6 @@ fun main(args:Array<String>) {
    println(numbersStrings.joinTo(listString))
    println(numbersStrings.joinToString(separator = " | ",prefix= "start:", postfix = ":end"))
 }
-
-
 
 //<---------------------------------------------------------->
 fun main(args:Array<String>) {
