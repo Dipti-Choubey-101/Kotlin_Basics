@@ -87,9 +87,6 @@ fun main(args:Array<String>) {
    println(numbers.joinToString(limit=15,truncated="<...>"))
 }
 
-
-
-
 //<------------------------------------------------------------>
     //filtering
 fun main(args:Array<String>) {
