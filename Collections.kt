@@ -109,10 +109,6 @@ fun main(args:Array<String>) {
    println(filteredIdx)
 }
 
-
-
-
-
 //<----------------------------------------------------------------->
     //filter not
 fun main(args:Array<String>) {
