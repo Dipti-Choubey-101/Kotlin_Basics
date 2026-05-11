@@ -10,17 +10,17 @@ fun main(args:Array<String>) {
 
 //<------------------------------------------------------------>
 //so trying try and catch method
-//fun main(){
-//    val a=5
-//    val b=5
-//    val result=try{
-//        println(a/b)
-//        a/b
-//    }catch(e: ArithmeticException){
-//        println("you cant divide by 0:${e.message}")
-//        0
-//    }finally{
-//        println("divide by zero")
-//    }
-//    println(result)
-//}
+fun main(){
+   val a=5
+   val b=5
+   val result=try{
+       println(a/b)
+       a/b
+   }catch(e: ArithmeticException){
+       println("you cant divide by 0:${e.message}")
+       0
+   }finally{
+       println("divide by zero")
+   }
+   println(result)
+}
