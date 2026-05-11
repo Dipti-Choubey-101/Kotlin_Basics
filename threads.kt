@@ -11,7 +11,6 @@ fun main() {
         println("Thread 2 has finished")
     }
 
-
     println("Hello World! 6")
     println("Hello World! 7")
     println("Hello World! 8")
