@@ -1,29 +1,29 @@
-//fun main(args:Array<String>) {
-//    val footballPlayer=FootballPlayer("Football player 1")
-//    val footballPlayer2=FootballPlayer("Football player 2")
-//    val footballPlayer3=FootballPlayer("Football player 3")
-//
-//    val baseballPlayer=BaseballPlayer("Baseball player 1")
-//    val baseballPlayer2=BaseballPlayer("Baseball player 2")
-//
-//    val footballTeam=Team<FootballPlayer>("Football team",mutableListOf(footballPlayer))
-//    footballTeam.addPlayers(footballPlayer2)
-//}
-//
-//class Team<T>(val name:String,val players: MutableList<T>){//<T> means This team can hold any one type of player. Example: Team<FootballPlayer> → football team ,Team<BaseballPlayer> → baseball team
-//    fun addPlayers(player : T){
-//        if(players.contains(player)){
-//            println("Player: ${(player as Player).name} is already in the team ${this.name}")
-//        }else{
-//            players.add(player)
-//            println("Player: ${(player as Player).name} added successfully in the team ${this.name}")
-//        }
-//    }
-//}
-//open class Player(val name:String)
-//
-//class FootballPlayer(name: String):Player(name)
-//class BaseballPlayer(name: String):Player(name)
+fun main(args:Array<String>) {
+   val footballPlayer=FootballPlayer("Football player 1")
+   val footballPlayer2=FootballPlayer("Football player 2")
+   val footballPlayer3=FootballPlayer("Football player 3")
+
+   val baseballPlayer=BaseballPlayer("Baseball player 1")
+   val baseballPlayer2=BaseballPlayer("Baseball player 2")
+
+   val footballTeam=Team<FootballPlayer>("Football team",mutableListOf(footballPlayer))
+   footballTeam.addPlayers(footballPlayer2)
+}
+
+class Team<T>(val name:String,val players: MutableList<T>){//<T> means This team can hold any one type of player. Example: Team<FootballPlayer> → football team ,Team<BaseballPlayer> → baseball team
+   fun addPlayers(player : T){
+       if(players.contains(player)){
+           println("Player: ${(player as Player).name} is already in the team ${this.name}")
+       }else{
+           players.add(player)
+           println("Player: ${(player as Player).name} added successfully in the team ${this.name}")
+       }
+   }
+}
+open class Player(val name:String)
+
+class FootballPlayer(name: String):Player(name)
+class BaseballPlayer(name: String):Player(name)
 
 
 
