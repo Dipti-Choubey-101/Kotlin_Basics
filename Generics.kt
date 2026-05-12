@@ -56,9 +56,6 @@ class FootballTeam(val name: String) {
 open class Player(open val name: String)
 class FootballPlayer(name: String) : Player(name)
 
-
-
-
 //<------------------------------------------------------------------------>
 
 fun main(args:Array<String>) {
