@@ -63,23 +63,23 @@ class FootballPlayer(name: String) : Player(name)
 
 //<------------------------------------------------------------------------>
 
-//fun main(args:Array<String>) {
-//    val mixedList=mutableListOf(1,2,360,'a','b','c',"hello","world")
-//    val specificList=getSpecificTypes<Int>(mixedList)
-//
-//    for(element in specificList){
-//        println(element)
-//    }
-//}
-//inline fun <reified T> getSpecificTypes(list: List<Any>):List<T>{//reified :Allows checking element is T, inline is Required to use reified
-//    val specificList=mutableListOf<T>()
-//    for(element in list){
-//        if(element is T){
-//            specificList.add(element)
-//        }
-//    }
-//    return specificList
-//}
+fun main(args:Array<String>) {
+   val mixedList=mutableListOf(1,2,360,'a','b','c',"hello","world")
+   val specificList=getSpecificTypes<Int>(mixedList)
+
+   for(element in specificList){
+       println(element)
+   }
+}
+inline fun <reified T> getSpecificTypes(list: List<Any>):List<T>{//reified :Allows checking element is T, inline is Required to use reified
+   val specificList=mutableListOf<T>()
+   for(element in list){
+       if(element is T){
+           specificList.add(element)
+       }
+   }
+   return specificList
+}
 
 
 
