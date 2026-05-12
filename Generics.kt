@@ -31,32 +31,32 @@ class BaseballPlayer(name: String):Player(name)
 //<------------------------------------------------------------------------>
 //same code of above but in easy way
 
-//fun main(args:Array<String>) {
-//    val p1 = FootballPlayer("Messi")
-//    val p2 = FootballPlayer("Ronaldo")
-//    val p3 = FootballPlayer("Messi")
-//
-//    val team = FootballTeam("Dream Team")
-//
-//    team.addPlayer(p1)
-//    team.addPlayer(p2)
-//    team.addPlayer(p3)
-//}
-//class FootballTeam(val name: String) {
-//
-//    private val players = mutableListOf<FootballPlayer>()
-//
-//    fun addPlayer(player: FootballPlayer) {
-//        if (players.any { it.name == player.name }) {
-//            println("${player.name} is already in the team")
-//        } else {
-//            players.add(player)
-//            println("${player.name} added to the team")
-//        }
-//    }
-//}
-//open class Player(open val name: String)
-//class FootballPlayer(name: String) : Player(name)
+fun main(args:Array<String>) {
+   val p1 = FootballPlayer("Messi")
+   val p2 = FootballPlayer("Ronaldo")
+   val p3 = FootballPlayer("Messi")
+
+   val team = FootballTeam("Dream Team")
+
+   team.addPlayer(p1)
+   team.addPlayer(p2)
+   team.addPlayer(p3)
+}
+class FootballTeam(val name: String) {
+
+   private val players = mutableListOf<FootballPlayer>()
+
+   fun addPlayer(player: FootballPlayer) {
+       if (players.any { it.name == player.name }) {
+           println("${player.name} is already in the team")
+       } else {
+           players.add(player)
+           println("${player.name} added to the team")
+       }
+   }
+}
+open class Player(open val name: String)
+class FootballPlayer(name: String) : Player(name)
 
 
 
