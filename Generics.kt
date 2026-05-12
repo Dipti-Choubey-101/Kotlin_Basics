@@ -82,7 +82,3 @@ inline fun <reified T> getSpecificTypes(list: List<Any>):List<T>{//reified :Allo
 }
 
 
-
-
-
-
