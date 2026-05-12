@@ -26,8 +26,6 @@ class FootballPlayer(name: String):Player(name)
 class BaseballPlayer(name: String):Player(name)
 
 
-
-
 //<------------------------------------------------------------------------>
 //same code of above but in easy way
 
