@@ -14,13 +14,13 @@ fun add(a:Int,b:Int){
 
 
 //<------------------------------------------------------------->
-//fun main(args:Array<String>) {
-//    val myLambda={a:Int->println(a)}
-//    add(5,3,myLambda)
-//}
-//fun add(a:Int,b:Int,action: (Int)->Unit){
-//    action(a+b)
-//}
+fun main(args:Array<String>) {
+   val myLambda={a:Int->println(a)}
+   add(5,3,myLambda)
+}
+fun add(a:Int,b:Int,action: (Int)->Unit){
+   action(a+b)
+}
 
 
 
