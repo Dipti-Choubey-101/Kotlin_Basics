@@ -108,24 +108,24 @@ class User {
 //<------------------------------------------------------------>
 //scope  func using
 
-//fun main(args: Array<String>) {
-//    val user=User().apply {
-//        this.firstName="Dipti"
-//        this.lastName="Choubey"
-//        this.age=20
-//        //23//here if we hower over user we get User not int bcoz it returns the value of object it is created
-//    }
-//    with(user){
-//        println(firstName)
-//        println(lastName)
-//        println(age)
-//    }
-//}
-//class User(){
-//    var firstName=""
-//    var lastName=""
-//    var age=-1
-//}
+fun main(args: Array<String>) {
+   val user=User().apply {
+       this.firstName="Dipti"
+       this.lastName="Choubey"
+       this.age=20
+       //23//here if we hower over user we get User not int bcoz it returns the value of object it is created
+   }
+   with(user){
+       println(firstName)
+       println(lastName)
+       println(age)
+   }
+}
+class User(){
+   var firstName=""
+   var lastName=""
+   var age=-1
+}
 
 
 
