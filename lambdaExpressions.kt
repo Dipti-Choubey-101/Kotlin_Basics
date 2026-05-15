@@ -55,13 +55,13 @@ class Button(val text:String,val id:Int,val onClickListener:()->Unit)
 
 
 //<-------------------------------------------------------->
-//fun main(args:Array<String>) {
-//    upperCase("Hello",{s:String,->s.uppercase()})
-//}
-//fun upperCase(str: String,myFunction:(String)->String){
-//    val upperCaseWord=myFunction(str)
-//    println(upperCaseWord)
-//}
+fun main(args:Array<String>) {
+   upperCase("Hello",{s:String,->s.uppercase()})
+}
+fun upperCase(str: String,myFunction:(String)->String){
+   val upperCaseWord=myFunction(str)
+   println(upperCaseWord)
+}
 
 
 
