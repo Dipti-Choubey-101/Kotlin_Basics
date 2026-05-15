@@ -69,13 +69,13 @@ fun upperCase(str: String,myFunction:(String)->String){
 //<-------------------------------------------------------->
 //it using lambda func
 
-//fun main(args:Array<String>) {
-//    upperCase("Hello"){it.uppercase()}
-//}
-//fun upperCase(str: String,myFunction:(String)->String){
-//    val upperCaseWord=myFunction(str)
-//    println(upperCaseWord)
-//}
+fun main(args:Array<String>) {
+   upperCase("Hello"){it.uppercase()}
+}
+fun upperCase(str: String,myFunction:(String)->String){
+   val upperCaseWord=myFunction(str)
+   println(upperCaseWord)
+}
 
 
 
