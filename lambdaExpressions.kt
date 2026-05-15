@@ -26,12 +26,12 @@ fun add(a:Int,b:Int,action: (Int)->Unit){
 
 
 //<------------------------------------------------------------->
-//fun main(args:Array<String>) {
-//    add(5, 6, { a: Int -> println(a) })
-//}
-//fun add(a:Int,b:Int,action:(Int)->Unit){
-//    action(a+b)
-//}
+fun main(args:Array<String>) {
+   add(5, 6, { a: Int -> println(a) })
+}
+fun add(a:Int,b:Int,action:(Int)->Unit){
+   action(a+b)
+}
 
 
 
