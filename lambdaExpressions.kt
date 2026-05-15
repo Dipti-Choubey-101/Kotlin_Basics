@@ -83,24 +83,24 @@ fun upperCase(str: String,myFunction:(String)->String){
 //<---------------------------------------------------------->
 //scope func using with keyword
 
-//fun main(args: Array<String>) {
-//    val user = User()
-//    val result = with(user) {
-//        firstName = "Neel"
-//        lastName = "Sen"
-//        age = 20
-//        "text"
-//    }
-//    println(result)           // prints "text"
-//    println(user.firstName)   // Neel
-//    println(user.lastName)    // Sen
-//    println(user.age)         // 20
-//}
-//class User {
-//    var firstName = ""
-//    var lastName = ""
-//    var age = -1
-//}
+fun main(args: Array<String>) {
+   val user = User()
+   val result = with(user) {
+       firstName = "Neel"
+       lastName = "Sen"
+       age = 20
+       "text"
+   }
+   println(result)           // prints "text"
+   println(user.firstName)   // Neel
+   println(user.lastName)    // Sen
+   println(user.age)         // 20
+}
+class User {
+   var firstName = ""
+   var lastName = ""
+   var age = -1
+}
 
 
 
