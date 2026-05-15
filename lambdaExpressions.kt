@@ -1,14 +1,14 @@
 import java.awt.Button
 import javax.swing.Action
 
-//fun main(args:Array<String>) {
-//    val myLambda={a:Int,b:Int->println("a+b=${a+b}")}
-//
-//    myLambda(8,9)
-//}
-//fun add(a:Int,b:Int){
-//    println("a+b=${a+b}")
-//}
+fun main(args:Array<String>) {
+   val myLambda={a:Int,b:Int->println("a+b=${a+b}")}
+
+   myLambda(8,9)
+}
+fun add(a:Int,b:Int){
+   println("a+b=${a+b}")
+}
 
 
 
