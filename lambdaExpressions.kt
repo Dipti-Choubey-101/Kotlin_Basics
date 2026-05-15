@@ -37,19 +37,19 @@ fun add(a:Int,b:Int,action:(Int)->Unit){
 
 
 //<------------------------------------------------------------->
-//fun main(args:Array<String>) {
-//    val loginButton = Button("Login", 34261){
-//        //login user
-//        println("logged in")
-//    }
-//
-//    val signUpButton = Button("SignUp", 7362){
-//        //signup user
-//        println("signed up")
-//    }
-//
-//}
-//class Button(val text:String,val id:Int,val onClickListener:()->Unit)
+fun main(args:Array<String>) {
+   val loginButton = Button("Login", 34261){
+       //login user
+       println("logged in")
+   }
+
+   val signUpButton = Button("SignUp", 7362){
+       //signup user
+       println("signed up")
+   }
+
+}
+class Button(val text:String,val id:Int,val onClickListener:()->Unit)
 
 
 
