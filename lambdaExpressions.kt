@@ -132,23 +132,23 @@ class User(){
 
 
 //<----------------------------------------------------------->
-//fun main(args: Array<String>) {
-//    val user =User("Neel","Sen",20)
-//    println(user)
-//}
-//data class User(val firstName:String,val lastName:String,val age:Int)
+fun main(args: Array<String>) {
+   val user =User("Neel","Sen",20)
+   println(user)
+}
+data class User(val firstName:String,val lastName:String,val age:Int)
 
 
 
 //<------------------------------------------------------------->
 //instead of normal form lets do something changes ,let's use also scope func
 
-//fun main(args: Array<String>) {
-//    val result=User("Neel","Sen",20).also{
-//        println(it)//if we hower the result we will get the User in return
-//    }
-//}
-//data class User(val firstName:String,val lastName:String,val age:Int)
+fun main(args: Array<String>) {
+   val result=User("Neel","Sen",20).also{
+       println(it)//if we hower the result we will get the User in return
+   }
+}
+data class User(val firstName:String,val lastName:String,val age:Int)
 
 
 
@@ -156,40 +156,40 @@ class User(){
 //<--------------------------------------------------------------->
 //let scope func
 
-//fun main(args: Array<String>) {
-//    val text: String?=null
-//    text.let{//it returns null
-//        println(it)
-//    }
-//}
-//data class User(val firstName:String,val lastName:String,val age:Int)
+fun main(args: Array<String>) {
+   val text: String?=null
+   text.let{//it returns null
+       println(it)
+   }
+}
+data class User(val firstName:String,val lastName:String,val age:Int)
 
 
 
 
 //<--------------------------------------------------------------->
-//fun main(args: Array<String>) {
-//    var text: String? = "Neel"
-//
-//    text?.let {
-//        println(it)
-//    }
-//}
-//data class User(val firstName: String, val lastName: String, val age: Int)
+fun main(args: Array<String>) {
+   var text: String? = "Neel"
+
+   text?.let {
+       println(it)
+   }
+}
+data class User(val firstName: String, val lastName: String, val age: Int)
 
 
 
 
 //<----------------------------------------------------------------->
 //run scope func
-//fun main(args: Array<String>) {
-//    val user: User? = User("Neel", "Sen", 20)
-//
-//    user?.run {
-//        println(firstName)
-//        println(lastName)
-//        println(age)
-//    }
-//}
-//data class User(val firstName: String, val lastName: String, val age: Int)
+fun main(args: Array<String>) {
+   val user: User? = User("Neel", "Sen", 20)
+
+   user?.run {
+       println(firstName)
+       println(lastName)
+       println(age)
+   }
+}
+data class User(val firstName: String, val lastName: String, val age: Int)
 
