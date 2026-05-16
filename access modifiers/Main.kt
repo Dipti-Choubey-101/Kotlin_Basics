@@ -7,7 +7,6 @@ fun main() {
    println(car.color)  // ✅ allowed
 }
 
-
 //<-------------------------------------------------------------->
 //private
 fun main() {
