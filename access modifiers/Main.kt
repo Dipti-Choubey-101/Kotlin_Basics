@@ -7,9 +7,6 @@ fun main() {
    println(car.color)  // ✅ allowed
 }
 
-
-
-
 //<-------------------------------------------------------------->
 //private
 fun main() {
@@ -36,11 +33,6 @@ class BankAccount {
    }
 }
 
-
-
-
-
-
 //<----------------------------------------------------------->
 //protected
 fun main() {
@@ -59,7 +51,3 @@ class Car : Vehicle() {
        println("Speed is: $speed")
    }
 }
-
-
-
-
