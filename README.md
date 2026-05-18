@@ -1,40 +1,92 @@
-# 🚀 Kotlin Basics
+<h1 align="center">🚀 Kotlin Basics</h1>
 
-Welcome to **Kotlin_Basics** — a beginner-friendly Kotlin repository where I practice and explore core Kotlin programming concepts through hands-on coding examples.
+<p align="center">
+  A structured Kotlin learning repository covering core programming concepts, Object-Oriented Programming, collections, concurrency, and modern Kotlin features.
+</p>
 
-This repository contains multiple Kotlin programs covering everything from basic syntax to Object-Oriented Programming concepts, collections, functions, generics, coroutines, and more.
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Kotlin-purple?style=for-the-badge&logo=kotlin">
+  <img src="https://img.shields.io/badge/Platform-JVM-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/IDE-IntelliJ%20IDEA-blue?style=for-the-badge&logo=intellijidea">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
+</p>
 
 ---
 
-## 📚 Topics Covered
+# 📌 About The Repository
 
-### 🔹 Kotlin Fundamentals
-- Variables & Data Types
+**Kotlin_Basics** is a comprehensive repository created to practice and master the fundamentals of Kotlin programming through hands-on examples and structured code implementations.
+
+This repository contains beginner-to-intermediate Kotlin programs focused on:
+- Core programming concepts
+- Object-Oriented Programming (OOP)
+- Functional programming basics
+- Collections & Generics
+- Multithreading & Coroutines
+- Kotlin syntax and best practices
+
+The project serves as a strong foundation for:
+- Android Development
+- Backend Development with Kotlin
+- Competitive Programming
+- Software Engineering fundamentals
+
+---
+
+# 📚 Topics Covered
+
+## 🔹 Kotlin Fundamentals
+- Variables & Constants
+- Data Types
+- Type Conversion
 - Operators
-- Null Safety
-- Arrays
-- Loops
+- User Input
 - Conditional Statements
-- Functions
-- Lambda Expressions
-
-### 🔹 Object-Oriented Programming (OOP)
-- Classes & Objects
-- Access Modifiers
-- Constructors
-- Inheritance
-- Encapsulation
-
-### 🔹 Advanced Kotlin Concepts
-- Collections
-- Collection Operators
-- Generics
-- Coroutines
-- Threads
+- Loops & Iteration
+- Arrays
+- Null Safety
 
 ---
 
-## 📂 Repository Structure
+## 🔹 Functions & Functional Programming
+- Functions
+- Function Parameters
+- Return Types
+- Lambda Expressions
+- Higher-Order Functions
+
+---
+
+## 🔹 Object-Oriented Programming (OOP)
+- Classes & Objects
+- Constructors
+- Access Modifiers
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Abstraction
+
+---
+
+## 🔹 Collections Framework
+- Lists
+- Sets
+- Maps
+- Mutable Collections
+- Collection Operators
+
+---
+
+## 🔹 Advanced Kotlin Concepts
+- Exception Handling
+- Generics
+- Threads
+- Coroutines
+- Concurrency Basics
+
+---
+
+# 📂 Project Structure
 
 ```bash
 Kotlin_Basics/
@@ -46,6 +98,7 @@ Kotlin_Basics/
 ├── Exceptions.kt
 ├── Generics.kt
 ├── OOPS.kt
+├── OOPS1.kt
 ├── charAndBoolean.kt
 ├── collection_operators.kt
 ├── coroutines.kt
