@@ -4,8 +4,7 @@ fun main(args:Array<String>) {
    println("First element ${names[0]}")
 }
 
-//<------------------------------------------
------------->
+//<------------------------------------------------------>
 fun main(args:Array<String>) {
    val names=arrayOf("Dipti","Neel")
    names[0]="Dipu"
