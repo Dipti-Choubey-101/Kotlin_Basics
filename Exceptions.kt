@@ -13,6 +13,7 @@ fun main(){
    val a=5
    val b=5
    val result=try{
+      
        println(a/b)
        a/b
    }catch(e: ArithmeticException){
