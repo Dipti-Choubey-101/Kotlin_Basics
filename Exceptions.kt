@@ -7,6 +7,7 @@ fun main(args:Array<String>) {
    println(number[1])//it also gives error
 }
 
+
 //<------------------------------------------------------------>
 
 
