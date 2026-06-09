@@ -17,7 +17,6 @@ fun main(){
    val b=5
    val result=try{
 
-      
        println(a/b)
        a/b
    }catch(e: ArithmeticException){
