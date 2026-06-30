@@ -8,6 +8,7 @@ fun main(args:Array<String>) {
    val names=mutableSetOf<User>(user1,user2,user3,user4)
    names.forEach{println(it.name)}
 }
+
 data class User(val name: String)
 
 
