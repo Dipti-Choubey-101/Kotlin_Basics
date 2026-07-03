@@ -8,7 +8,6 @@ class User(var firstName:String,var lastName:String,var age:Int) {
    lateinit var favouriteMovie:String
 }
 
-
 //<----------------------------------------------------------------->
 //calculator class code
 fun main(){
