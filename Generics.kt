@@ -2,7 +2,6 @@ fun main(args:Array<String>) {
    val footballPlayer=FootballPlayer("Football player 1")
    val footballPlayer2=FootballPlayer("Football player 2")
    val footballPlayer3=FootballPlayer("Football player 3")
-
    
    val baseballPlayer=BaseballPlayer("Baseball player 1")
    val baseballPlayer2=BaseballPlayer("Baseball player 2")
