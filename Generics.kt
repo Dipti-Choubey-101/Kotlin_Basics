@@ -6,6 +6,7 @@ fun main(args:Array<String>) {
    val baseballPlayer=BaseballPlayer("Baseball player 1")
    val baseballPlayer2=BaseballPlayer("Baseball player 2")
 
+   
    val footballTeam=Team<FootballPlayer>("Football team",mutableListOf(footballPlayer))
    footballTeam.addPlayers(footballPlayer2)
 }
