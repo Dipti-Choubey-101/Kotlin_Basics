@@ -118,8 +118,6 @@ fun main(args:Array<String>) {
    println(filteredNot)
 }
 
-
-
 //<-------------------------------------------------------------------->
 //filterisinstance
 fun main(args:Array<String>) {
