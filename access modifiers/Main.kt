@@ -38,7 +38,7 @@ class BankAccount {
 fun main() {
    val car = Car()
 
-   // car.speed ❌ Not allowed (protected)
+   // car.speed
    car.showSpeed()   // ✅ allowed
 }
 
