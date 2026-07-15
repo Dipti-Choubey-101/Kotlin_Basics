@@ -3,7 +3,7 @@ package com.example.interfaces
 import com.example.classes.Car
 fun main() {
    val car = Car()
-   println(car.brand)  // ✅ allowed
+   println(car.brand)
    println(car.color)
 }
 
