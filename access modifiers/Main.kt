@@ -39,7 +39,7 @@ fun main() {
    val car = Car()
 
    // car.speed
-   car.showSpeed()   // ✅ allowed
+   car.showSpeed()
 }
 
 open class Vehicle {
