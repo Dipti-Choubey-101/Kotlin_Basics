@@ -13,7 +13,6 @@ fun main(args:Array<String>) {
 }
 
 
-
 data class User(val name: String)
 //<------------------------------------------------------------------->
 //maps
