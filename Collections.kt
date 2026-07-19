@@ -9,7 +9,6 @@ fun main(args:Array<String>) {
    names.forEach{println(it.name)}
 }
 
-
 data class User(val name: String)
 //<------------------------------------------------------------------->
 //maps
