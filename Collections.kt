@@ -28,8 +28,7 @@ fun main(args:Array<String>) {
    }
 }
 
-
-//<---------------------------------------------------------------------->
+//<--------------------------------------------------------------------->
     //collections Operations
     //flatten functions
 fun main(args:Array<String>) {
