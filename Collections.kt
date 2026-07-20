@@ -94,7 +94,6 @@ fun main(args:Array<String>) {
    val filteredMap=numbersMap.filter{it.key.endsWith("1") && it.value>100}
    println(filteredMap)
 }
-
 //<--------------------------------------------------------------->
     //filter index
 fun main(args:Array<String>) {
