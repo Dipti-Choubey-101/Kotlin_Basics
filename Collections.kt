@@ -73,7 +73,6 @@ fun main(args:Array<String>) {
    println(numbersStrings.joinTo(listString))
    println(numbersStrings.joinToString(separator = " | ",prefix= "start:", postfix = ":end"))
 }
-
 //<---------------------------------------------------------->
 fun main(args:Array<String>) {
    val numbers=(1..100).toList()
