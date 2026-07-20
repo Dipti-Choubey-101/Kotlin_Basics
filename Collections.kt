@@ -49,7 +49,6 @@ fun main(args:Array<String>) {
    val numbersFlatten=numberSets.flatten()
    println(numbersFlatten[8])
 }
-
 //<-------------------------------------------------------------->
 //loop through one dimensional array
 fun main(args:Array<String>) {
