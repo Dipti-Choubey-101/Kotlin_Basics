@@ -43,7 +43,6 @@ fun main(args:Array<String>) {
        println("\n")
    }
 }
-
 //<-------------------------------------------------------------->
     //dimensional array
 fun main(args:Array<String>) {
