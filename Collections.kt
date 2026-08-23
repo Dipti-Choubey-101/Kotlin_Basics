@@ -24,6 +24,7 @@ fun main(args:Array<String>) {
        println("$t and $u")
    }
 }
+
 //<--------------------------------------------------------------------->
     //collections Operations
     //flatten functions
