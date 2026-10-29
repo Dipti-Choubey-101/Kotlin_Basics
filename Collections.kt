@@ -11,6 +11,7 @@ data class User(val name: String)
 
 //<------------------------------------------------------------------->
 //maps
+
 fun main(args:Array<String>) {
    val users=mapOf<Int,String>(1 to "Neel",2 to "Biva",3 to "Riya")
    println(users[1])
